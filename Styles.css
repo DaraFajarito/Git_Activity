@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+/* $primary = #F44336; */
+
+* {
+  box-sizing: border-box;
+}
+
+body, html  {
+  font-family: Roboto, sans-serif;
+}
+
+
+.centered-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 1600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.card1 {
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 1600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-content {
+    margin-top: 20px;
+}
+
+.card-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #333;
+}
+
+
